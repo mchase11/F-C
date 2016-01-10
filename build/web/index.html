@@ -1,0 +1,65 @@
+<!--
+AUTHOR: MADISON CHASE
+PROJECT: DISCUSSION 3 - FAHRENHEIT AND CELSIUS CONVERTER
+FILE: index.html
+-->
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <title>Fahrenheit and Celsius Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Creates a cascading style sheet for use within this file -->
+    <style type="text/css">
+    
+        .boxed {
+            width: 400px;
+            border: 8px solid #B0ACB0;
+            padding: 30px;
+            margin: 20px;
+            background: #F20056;
+            border-style: ridge;
+        }
+
+        iframe {
+            width: 300px;
+        }
+
+        h3 {
+            color: black;
+            text-shadow: 0 -4px 5px #ffff99,
+                0 -8px 10px #ffff00,
+                0 -12px 15px red,
+                0 -15px 20px #ff6600,
+                0 -17px 40px gray,
+                0 -20px 80px black;
+            font: impact;
+            text-decoration: underline;
+        }
+   
+    </style>
+
+    </head>
+
+    <body bgcolor="#000000">
+        <center>
+            <div class="boxed"> 
+            <h3>
+                Fahrenheit and Celsius Calculator
+            </h3>
+            <p> 
+                <iframe src="calculator.jsp" name="topframe" height="150" scrolling="no"> calculator </iframe>
+            </p>
+            <BR> 
+            <h3>
+                Results  
+            </h3>
+            <p>
+                <iframe src="calculatorresults.jsp" name="bottomframe" height="100" scrolling="no"> calculatorresults </iframe> 
+            </p>
+            </div>     
+        </center>
+    </body>
+</html>
